@@ -29,3 +29,5 @@ zsh-autosuggestions
 ```
 source .zshrc
 ```
+
+Done
