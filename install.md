@@ -30,4 +30,10 @@ zsh-autosuggestions
 source .zshrc
 ```
 
+4. Đặt zsh làm mặc định
+
+```
+chsh -s $(which zsh)
+```
+
 Done
