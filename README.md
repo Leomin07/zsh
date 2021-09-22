@@ -30,10 +30,19 @@ zsh-autosuggestions
 source .zshrc
 ```
 
-4. Đặt zsh làm mặc định
+4. Default bash
 
 ```
 chsh -s $(which zsh)
+```
+
+5, Create file 
+```
+touch 'name'
+```
+6, Open file
+```
+nano 'name'
 ```
 
 Done
