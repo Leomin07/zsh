@@ -58,4 +58,8 @@ nano 'name'
 ```
 sudo apt update
 ```
+10, theme
+```
+awesomepanda
+```
 Done
