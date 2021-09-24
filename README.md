@@ -40,19 +40,22 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 ```
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
-4. Default bash
+6, Default bash
 
 ```
 chsh -s $(which zsh)
 ```
 
-5, Create file 
+7, Create file 
 ```
 touch 'name'
 ```
-6, Open file
+8, Open file
 ```
 nano 'name'
 ```
-
+9, update
+```
+sudo apt update
+```
 Done
