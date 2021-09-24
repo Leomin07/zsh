@@ -21,11 +21,11 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 ```
 nano .zshrc
 ```
-
+```
 plugins=(
-zsh-autosuggestions
+zsh-autosuggestions zsh-syntax-highlighting
 )
-
+```
 ```
 source .zshrc
 ```
