@@ -62,4 +62,8 @@ sudo apt update
 ```
 awesomepanda
 ```
+11, font
+```
+https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup
+```
 Done
