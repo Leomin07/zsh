@@ -7,7 +7,7 @@ sudo apt-get install zsh
 2, install oh my zsh
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 ```
 
 - Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
