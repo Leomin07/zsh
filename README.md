@@ -1,13 +1,13 @@
 1, install zsh
 
 ```
-sudo apt-get install zsh
+sudo apt-get install zsh -y
 ```
 
 2, install oh my zsh
 
 ```
-git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+sudo curl -L http://install.ohmyz.sh | sh
 ```
 
 - Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
@@ -15,7 +15,7 @@ git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plu
 3, zsh-autosuggestions
 
 ```
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 ```
 
 ```
