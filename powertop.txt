@@ -1,0 +1,11 @@
+sudo apt-add-repository ppa:izx/bleeding
+sudo apt-get update
+sudo apt-get install powertop -y
+
+mo powertop
+
+sudo powertop
+
+chay powertop
+
+sudo powertop --auto-tune

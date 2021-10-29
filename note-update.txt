@@ -1,0 +1,41 @@
+1, update
+sudo apt update && sudo apt upgrade
+2. Cài đặt codec phương tiện để phát MP3, MPEG4 và các tệp phương tiện khác
+sudo apt install ubuntu-restricted-extras
+3. Làm sạch hệ thống của bạn
+4. INSTALL VLC MEDIA PLAYER
+sudo snap install vlc
+5. chromium
+sudo snap install chromium
+6. notepad++
+sudo snap install notepad-plus-plus
+7, notepad
+sudo snap install notepad3
+8. vscode
+sudo snap install code --classic
+9. webstorm
+sudo snap install webstorm --classic
+
+10. Thiết lập thời gian đồng hồ trên hệ thống khởi động kép
+Nếu khởi động kép Ubuntu 18.04 và Windows 10, bạn có thể thấy khi thay đổi thời gian trên một hệ thống sẽ ảnh hưởng đến hệ thống kia và kết quả hai hệ thống không hiển thị cùng một thời gian.
+
+timedatectl set-local-rtc 1 --adjust-system-clock
+
+timedatectl set-local-rtc 0 --adjust-system-clock
+
+11
+sudo apt update && sudo apt upgrade
+
+winrar
+sudo apt install rar unrar p7zip-full p7zip-rar
+
+Hiển thị tỷ lệ phần trăm pin
+gsettings set org.gnome.desktop.interface show-battery-percentage true
+
+12, cài đặt git
+
+sudo apt install git -y
+
+13, Sudo apt install gnome-tweaks
+
+sudo apt install gnome-tweaks
