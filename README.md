@@ -67,3 +67,7 @@ awesomepanda
 https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup
 ```
 Done
+
+```
+yarn add eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y -D
+```
