@@ -28,7 +28,7 @@
 ### User-configurable variables
 
 # 'full', 'short', or 'shrink'
-x=${AGNOSTER_PATH_STYLE:=full}
+x=${AGNOSTER_PATH_STYLE:=shrink}
 
 ### Segments of the prompt, default order declaration
 
