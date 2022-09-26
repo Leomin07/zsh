@@ -6,3 +6,8 @@ control + K
 ```
 nano ~/.ssh/authorized_keys
 ```
+3. Swap ram trong linux/ubuntu
+-- sudo fallocate -l 1G /swapfile
+```
+sudo fallocate -l 1G /swapfile
+```
