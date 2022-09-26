@@ -13,6 +13,9 @@ status mongo
 ```
 sudo systemctl status mongodb
 ```
+```
+mongo
+```
 ### Redis
 ### 1. Install Redis
 ```
