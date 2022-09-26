@@ -7,11 +7,11 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'newPassword';
 ## MongoDB
 ### 1. Install mongodb
 ```
-sudo apt-get install mongodb
+sudo apt install mongodb
 ```
-start mongo
+status mongo
 ```
-sudo service mongodb start
+sudo systemctl status mongodb
 ```
 ### Redis
 ### 1. Install Redis
