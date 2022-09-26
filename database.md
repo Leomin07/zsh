@@ -9,8 +9,8 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'newPassword';
 ```
 sudo apt-get install mongodb
 ```
+start mongo
 ```
-==start mongo
 sudo service mongodb start
 ```
 ### Redis
