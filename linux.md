@@ -50,4 +50,11 @@ Mem:           581M         275M        62M        103M        243M        110M
 Swap:          1.0G          0B        1.0G
 ```
 
-[Link](https://www.cloudbooklet.com/how-to-add-swap-space-on-ubuntu-20-04/)
+[Link tutorial](https://www.cloudbooklet.com/how-to-add-swap-space-on-ubuntu-20-04/)
+
+
+
+
+
+
+
