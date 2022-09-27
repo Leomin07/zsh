@@ -3,7 +3,14 @@
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'newPassword';
 ```
-
+Create new user
+```
+CREATE USER 'user'@'hostname';
+```
+Access db
+```
+GRANT ALL PRIVILEGES ON dbTest.* To 'user'@'hostname' IDENTIFIED BY 'password';
+```
 ## MongoDB
 ### 1. Install mongodb
 ```
