@@ -9,7 +9,7 @@ nano ~/.ssh/authorized_keys
 # 3. Swap ram trong linux/ubuntu
 ##### 1. Creating a Swap File
 ```
-sudo fallocate -l 1G /swapfile
+sudo fallocate -l 2G /swapfile
 ```
 ##### 2. Set up Swap File Permissions
 ```
