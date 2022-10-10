@@ -52,4 +52,7 @@ sudo apt-get install redis-server
 ```
 sudo service redis-server start
 ```
-
+### 3. Rename namespace pm2
+```
+pm2 restart "idPm2" --name "newName"
+```
