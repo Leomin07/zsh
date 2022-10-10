@@ -66,6 +66,25 @@ sudo nano /var/www/your_domain/html/index.html
 sudo nano /etc/nginx/sites-available/your_domain
 ```
 ```
+server{
+	listen 80;
+    listen [::]:80;
+
+    index index.html server.js;
+
+    server_name api.noseelongtime.win;
+
+	 location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+```
+```
 sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/
 ```
 ```
@@ -87,6 +106,26 @@ sudo nginx -t
 sudo systemctl restart nginx
 ```
 
+## DEPLOY FRONTEND (ReactJS)
+
+sample nodejs
+
+change file below
+```
+server {
+        listen 80;
+        listen [::]:80;
+
+        root /var/www/your_domain/html;
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name your_domain www.your_domain;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+}
+```
 
 
 
