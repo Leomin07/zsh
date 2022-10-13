@@ -1,7 +1,7 @@
 1, install zsh
 
 ```
-sudo apt-get install zsh
+sudo apt-get install zsh -y
 ```
 
 2, install oh my zsh
