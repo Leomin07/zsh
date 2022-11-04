@@ -72,7 +72,7 @@ server{
 
     index index.html server.js;
 
-    server_name api.noseelongtime.win;
+    server_name "domain or ip";
 
 	 location / {
         proxy_pass http://localhost:3000;
@@ -127,7 +127,26 @@ server {
 }
 ```
 
+## BONUS Nginx Socket.IO
 
+```
+http {
+  server {
+    listen 80;
+
+    location / {
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header Host $host;
+
+      proxy_pass http://localhost:3000;
+
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection "upgrade";
+    }
+  }
+}
+```
 
 
 
