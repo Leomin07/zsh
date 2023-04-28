@@ -1,4 +1,4 @@
-### 1. Download package [here](zsh-5.9-2-x86_64.pkg.tar.zst)
+### 1. Download package [here](./zsh-5.9-2-x86_64.pkg.tar.zst)
 
 ### 2. Extract to:
 
@@ -53,6 +53,20 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 ```
 
+```
+nano .zshrc
+```
+
+```
+plugins=(
+    zsh-autosuggestions zsh-completions zsh-syntax-highlighting git
+)
+```
+
+```
+source .zshrc
+```
+
 ### 7. Optional steps
 
 - Install theme
@@ -74,4 +88,12 @@ Windows can mangle some UTF-8 encoded text, causing unexpected characters to be 
 ```
 /c/Windows/System32/chcp.com 65001 > /dev/null 2>&1
 
+```
+
+### 9. Config them agnoster [here](./install-theme-custom-agnoster.md)
+
+### 10. Set zsh default
+
+```
+chsh -s $(which zsh)
 ```
