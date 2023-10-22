@@ -11,9 +11,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ```
 
 ### 4. Add cygwin to Windows Terminal
+```
+apt-cyg install chere 
+```
 - Command-line
 ```
-C:\cygwin64\bin\bash.exe --login
+CC:\cygwin64\bin\bash.exe /bin/xhere /bin/bash
 ```
 - Icon
 ```
