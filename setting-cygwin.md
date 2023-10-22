@@ -10,7 +10,20 @@ chmod +x /bin/apt-cyg
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-### 4. Setting path zsh with windows terminal
+### 4. Add cygwin to Windows Terminal
+- Command-line
 ```
-C:\cygwin64\bin\mintty.exe -i /Cygwin-Terminal.ico /bin/zsh --login
+C:\cygwin64\bin\bash.exe --login
+```
+- Icon
+```
+C:\cygwin64\Cygwin.ico
+```
+- Name
+```
+Cygwin Bash
+``` 
+- Tab title
+```
+Cygwin shell
 ```
