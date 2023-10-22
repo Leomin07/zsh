@@ -36,3 +36,4 @@ if [[ $TERM = dumb ]]; then
     unset zle_bracketed_paste
 fi
 ```
+![image](https://github.com/Leomin07/zsh/assets/61413434/35b85011-30d2-4e4c-a8b1-1e80b115e9ab)
