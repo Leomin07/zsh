@@ -8,6 +8,11 @@ C:\Program Files\Git
 
 ### 3. Test it and config zsh:
 
+- Install Zsh
+```
+sudo apt install zsh -y
+```
+
 - Open git bash and type:
 
 ```
