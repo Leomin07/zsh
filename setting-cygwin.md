@@ -27,3 +27,12 @@ Cygwin Bash
 ```
 Cygwin shell
 ```
+### 5. Trick
+```
+nano .zshrc
+```
+```
+if [[ $TERM = dumb ]]; then
+    unset zle_bracketed_paste
+fi
+```
