@@ -7,6 +7,13 @@ sudo apt install zsh -y
 sudo apt install git-all -y
 ```
 ### 3. Install NodeJs version 14
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+```
+
+```
+nvm install node
+```
 - Install curl
 ```
 sudo apt install curl
